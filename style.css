@@ -21,6 +21,7 @@ body {
 }
 
 #sidebar {
+  background-image: url(./static/background.jpg);
   background-size: cover;
 
   flex-grow: 2;
