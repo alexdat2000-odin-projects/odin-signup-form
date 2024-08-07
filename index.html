@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Sign-up Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="sidebar">
+      <div id="logo-container">
+        <img src="static/odin-lined.png" alt="odin logo">
+        ODIN
+      </div>
+
+      <div id="footer">
+        Photo by Halie West
+      </div>
+    </div>
+
+
+    <form action="./registerForm" method="post">
+      <div id="text">
+        <p>
+          This is not a real online service! You know you need something like this in your life to realize your deepest
+          dreams.<br>Sign up <em>now</em> to get started.<br>
+        </p>
+        <p>
+          You <em>know</em> you want to.
+        </p>
+      </div>
+
+      <div id="main-inputs">
+        <h1>Let's do this!</h1>
+        <div id="buttons">
+          <div id="form-col-1">
+            <label for="firstname">FIRST NAME</label>
+            <input type="text" name="firstname" id="firstname">
+
+            <label for="email">EMAIL</label>
+            <input type="email" name="email" id="email">
+
+            <label for="password">PASSWORD</label>
+            <input type="password" name="password" id="password" minlength="8">
+          </div>
+
+          <div id="form-col-2">
+            <label for="lastname">LAST NAME</label>
+            <input type="text" name="lastname" id="lastname">
+
+            <label for="phone">PHONE NUMBER</label>
+            <input type="tel" name="phone" id="phone">
+
+            <label for="password2">CONFIRM PASSWORD</label>
+            <input type="password" name="password2" id="password2" minlength="8">
+          </div>
+        </div>
+      </div>
+
+      <div id="actions">
+        <button type="submit">Create account</button>
+        <p>
+          Already have an account? <a href="./login">Log in</a>
+        </p>
+      </div>
+    </form>
+  </body>
+</html>
